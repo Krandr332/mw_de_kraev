@@ -1,0 +1,205 @@
+{
+  "main": {
+    "id": "eeedcaa9a2fe5007",
+    "type": "split",
+    "children": [
+      {
+        "id": "738b6bb0005cb472",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2aa222fe3e259be6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ML_and_BIGDATA/README.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "README"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "f971a770af751628",
+    "type": "split",
+    "children": [
+      {
+        "id": "a700af8c386ea23c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0db12aaa719dc65b",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Файловый менеджер"
+            }
+          },
+          {
+            "id": "c4a8c8de1422b928",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Поиск"
+            }
+          },
+          {
+            "id": "8004695a45edfafe",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Закладки"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "7de9d0de2b1d4453",
+    "type": "split",
+    "children": [
+      {
+        "id": "9f5855b67b392438",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2ce6897abd5d0384",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "ML_and_BIGDATA/README.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Обратные ссылки для README"
+            }
+          },
+          {
+            "id": "0ffec4931d0550b3",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "ML_and_BIGDATA/README.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Исходящие ссылки из README"
+            }
+          },
+          {
+            "id": "a5574b63481ac6ff",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Теги"
+            }
+          },
+          {
+            "id": "3c02002b4f6e91bb",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "Все свойства"
+            }
+          },
+          {
+            "id": "d7963b6d13e26ec9",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "ML_and_BIGDATA/README.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Структура README"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Меню быстрого перехода": false,
+      "graph:Граф": false,
+      "canvas:Создать новый холст": false,
+      "daily-notes:Сегодняшняя заметка": false,
+      "templates:Вставить шаблон": false,
+      "command-palette:Открыть палитру команд": false,
+      "bases:Создать новую базу": false
+    }
+  },
+  "active": "2aa222fe3e259be6",
+  "lastOpenFiles": [
+    "Pasted image 20260524152423.png",
+    "Pasted image 20260524152410.png",
+    "Pasted image 20260524152354.png",
+    "Pasted image 20260524152346.png",
+    "Pasted image 20260524152342.png",
+    "Pasted image 20260524152330.png",
+    "Pasted image 20260524152327.png",
+    "Pasted image 20260524142614.png",
+    "Pasted image 20260524142527.png",
+    "Pasted image 20260524142524.png",
+    "ML_and_BIGDATA/notebooks/logistics_analysis.ipynb",
+    "Pasted image 20260524142050.png",
+    "ML_and_BIGDATA/__pycache__/config.cpython-311.pyc",
+    "ML_and_BIGDATA/__pycache__",
+    "ML_and_BIGDATA/notebooks/analytics.ipynb~",
+    "ML_and_BIGDATA/README.md"
+  ]
+}

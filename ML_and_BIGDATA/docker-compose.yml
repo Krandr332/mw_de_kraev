@@ -1,0 +1,56 @@
+services:
+  postgres:
+    image: postgres:15-alpine
+    container_name: production_db
+    environment:
+      POSTGRES_USER: admin
+      POSTGRES_PASSWORD: test_pass
+      POSTGRES_DB: analytics_db
+    ports:
+      - "5432:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    restart: always
+
+  minio:
+    image: minio/minio:latest
+    container_name: storage_s3
+    ports:
+      - "9000:9000"
+      - "9001:9001"
+    environment:
+      MINIO_ROOT_USER: admin
+      MINIO_ROOT_PASSWORD: test_pass
+    command: server /data --console-address ":9001"
+    volumes:
+      - miniodata:/data
+    restart: always
+
+  jupyter:
+    image: jupyter/scipy-notebook:latest
+    container_name: research_jupyter
+    ports:
+      - "8888:8888"
+    environment:
+      JUPYTER_TOKEN: test_pass
+    volumes:
+      - ./notebooks:/home/jovyan/work
+      - ./:/home/jovyan/project
+    restart: always
+
+  superset:
+    image: apache/superset:latest
+    container_name: bi_superset
+    ports:
+      - "8088:8088"
+    environment:
+      SUPERSET_SECRET_KEY: test_pass
+    volumes:
+      - supersetdata:/app/superset_home
+    depends_on:
+      - postgres
+    restart: always
+volumes:
+  pgdata:
+  miniodata:
+  supersetdata:
