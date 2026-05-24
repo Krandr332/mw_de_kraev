@@ -1,7 +1,7 @@
 # Развертывание
-![Pasted image 20260524140242.png](Pasted%20image%2020260524140242.png)
-![Pasted image 20260524000333.png](Pasted%20image%2020260524000333.png)
-![Pasted image 20260524000726.png](Pasted%20image%2020260524000726.png)
+![Pasted image 20260524140242.png](img/Pasted%20image%2020260524140242.png)
+![Pasted image 20260524000333.png](img/Pasted%20image%2020260524000333.png)
+![Pasted image 20260524000726.png](img/Pasted%20image%2020260524000726.png)
 
 # Задание 1
 
@@ -9,9 +9,9 @@
 
 Разработан скрипт агрегации исторических данных по добыче. Из таблиц `production` и `wells` сформирована денормализованная витрина данных, содержащая средний дебит нефти и среднее время простоя по каждой скважине. Результат сохранен обратно в СУБД.
 
-![Pasted image 20260524130021.png](Pasted%20image%2020260524130021.png)
-![Pasted image 20260524130215.png](Pasted%20image%2020260524130215.png)
-![Pasted image 20260524152330.png](Pasted%20image%2020260524152330.png)
+![Pasted image 20260524130021.png](img/Pasted%20image%2020260524130021.png)
+![Pasted image 20260524130215.png](img/Pasted%20image%2020260524130215.png)
+![Pasted image 20260524152330.png](img/Pasted%20image%2020260524152330.png)
 
 # Задание 2
 
@@ -19,10 +19,10 @@
 
 Собрал часовые логи телеметрии из таблицы `well_telemetry` и схлопнул их в среднесуточные показатели (посчитал среднюю вибрацию, обороты насоса, ток, давление и температуру за каждый день). Затем подтянул к ним реальные объемы добычи нефти из `well_targets`.
 
-![Pasted image 20260524131643.png](Pasted%20image%2020260524131643.png)
-![Pasted image 20260524131713.png](Pasted%20image%2020260524131713.png)
-![Pasted image 20260524152346.png](Pasted%20image%2020260524152346.png)
-![Pasted image 20260524152354.png](Pasted%20image%2020260524152354.png)
+![Pasted image 20260524131643.png](img/Pasted%20image%2020260524131643.png)
+![Pasted image 20260524131713.png](img/Pasted%20image%2020260524131713.png)
+![Pasted image 20260524152346.png](img/Pasted%20image%2020260524152346.png)
+![Pasted image 20260524152354.png](img/Pasted%20image%2020260524152354.png)
 
 # Задание 3
 
@@ -30,15 +30,15 @@
 
 Разработан алгоритм автоматического поиска аномалий и оценки технического состояния насосного оборудования.
 
-![Pasted image 20260524141831.png](Pasted%20image%2020260524141831.png)
-![Pasted image 20260524142050.png](Pasted%20image%2020260524142050.png)
-![Pasted image 20260524152410.png](Pasted%20image%2020260524152410.png)
+![Pasted image 20260524141831.png](img/Pasted%20image%2020260524141831.png)
+![Pasted image 20260524142050.png](img/Pasted%20image%2020260524142050.png)
+![Pasted image 20260524152410.png](img/Pasted%20image%2020260524152410.png)
 
 # Задание 4
 
 Реализован модуль сквозного анализа логистических цепочек и эффективности работы водителей на основе исторических данных о поставках (`deliveries`).
 
-![Pasted image 20260524142527.png](Pasted%20image%2020260524142527.png)
-![Pasted image 20260524142614.png](Pasted%20image%2020260524142614.png)
+![Pasted image 20260524142527.png](img/Pasted%20image%2020260524142527.png)
+![Pasted image 20260524142614.png](img/Pasted%20image%2020260524142614.png)
 
-![Pasted image 20260524152423.png](Pasted%20image%2020260524152423.png)
+![Pasted image 20260524152423.png](img/Pasted%20image%2020260524152423.png)
