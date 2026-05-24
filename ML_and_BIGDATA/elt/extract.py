@@ -3,9 +3,17 @@ import pandas as pd
 from sqlalchemy import create_engine
 from io import BytesIO
 
-from config import DB_URL, S3_CONFIG, BUCKET_NAME
 from quality import verify_data_quality, remove_outliers_iqr
 
+
+DB_URL = "postgresql://admin:test_pass@postgres:5432/analytics_db"
+S3_CONFIG =  {
+    "endpoint_url": "http://minio:9000",
+    "aws_access_key_id": "admin",
+    "aws_secret_access_key": "test_pass",
+}
+
+BUCKET_NAME = "lakehouse"
 engine = create_engine(DB_URL)
 s3_client = boto3.client("s3", **S3_CONFIG)
 

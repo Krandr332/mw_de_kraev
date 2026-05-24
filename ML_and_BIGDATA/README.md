@@ -42,3 +42,7 @@
 ![Pasted image 20260524142614.png](img/Pasted%20image%2020260524142614.png)
 
 ![Pasted image 20260524152423.png](img/Pasted%20image%2020260524152423.png)
+
+___
+
+
